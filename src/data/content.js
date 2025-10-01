@@ -1,4 +1,4 @@
-import { FaGithub, FaLinkedin } from 'react-icons/fa';
+﻿import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import { LuMail, LuPhone } from 'react-icons/lu';
 import { SiGeeksforgeeks, SiLeetcode } from 'react-icons/si';
 
@@ -110,7 +110,7 @@ export const education = [
 
 export const certifications = [
   { title: 'AWS Practitioner', issuer: 'Amazon Web Services', year: 2025, image: 'aws-fixed.jpg' },
-  { title: 'MERN Developer � ETHNUS', issuer: 'ETHNUS', year: 2025, image: 'mern-fixed.jpg' },
+  { title: 'MERN Developer - ETHNUS', issuer: 'ETHNUS', year: 2025, image: 'mern-fixed.jpg' },
   { title: 'Blockchain Fundamentals', issuer: 'Coursera', year: 2025, image: 'blockchain-fixed.jpg' },
   { title: 'Machine Learning with Python', issuer: 'IBM Skills Network', year: 2024, image: 'ml-fixed.jpg' },
 ];
@@ -128,4 +128,6 @@ export const languages = [
 ];
 
 export const hobbies = ['Badminton', 'Listening to Music'];
+
+
 

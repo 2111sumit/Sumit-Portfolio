@@ -1,4 +1,4 @@
-import { ThemeToggle } from './components/ThemeToggle.jsx';
+﻿import { ThemeToggle } from './components/ThemeToggle.jsx';
 import { hero } from './data/content.js';
 import { Hero } from './sections/Hero.jsx';
 import { Skills } from './sections/Skills.jsx';
@@ -8,6 +8,7 @@ import { Certifications } from './sections/Certifications.jsx';
 import { Achievements } from './sections/Achievements.jsx';
 import { LanguagesHobbies } from './sections/LanguagesHobbies.jsx';
 import { Contact } from './sections/Contact.jsx';
+import { FooterSection } from './sections/FooterSection.jsx';
 
 const navigation = [
   { label: 'Skills', href: '#skills' },
@@ -76,8 +77,12 @@ function App() {
         <LanguagesHobbies />
         <Contact />
       </main>
+      <FooterSection />
     </div>
   );
 }
 
 export default App;
+
+
+
