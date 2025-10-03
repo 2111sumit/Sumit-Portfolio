@@ -1,4 +1,4 @@
-﻿import { FaGithub, FaLinkedin } from 'react-icons/fa';
+import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import { LuMail, LuPhone } from 'react-icons/lu';
 import { SiGeeksforgeeks, SiLeetcode } from 'react-icons/si';
 
@@ -8,7 +8,7 @@ export const hero = {
   description:
     'Building resilient, user-focused products across the MERN stack while blending data-driven insights from machine learning and clean API design.',
   location: ' India',
-  availability: 'Open to internships & freelance collaborations',
+  availability: 'Open to internships & Jobs',
   highlights: [
     'Crafting pixel-perfect experiences with React and Tailwind CSS',
     'Designing secure REST APIs backed by scalable data models',
@@ -128,6 +128,11 @@ export const languages = [
 ];
 
 export const hobbies = ['Badminton', 'Listening to Music'];
+
+
+
+
+
 
 
 
